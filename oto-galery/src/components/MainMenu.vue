@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full bg-white px-6 pb-12 antialiased">
+  <section class="w-full bg-white px-6 pb-4 antialiased">
     <div class="mx-auto max-w-7xl">
       <nav class="relative z-50 h-24 select-none" x-data="{ showMenu: false }">
         <div
@@ -8,7 +8,7 @@
           <div class="flex h-full w-1/4 items-center justify-start pr-4">
             <a href="#_" class="inline-block py-4 md:py-0">
               <span class="p-1 text-xl font-black leading-none text-gray-900"
-                ><span>Özbeyler Otomotiv</span><span class="text-indigo-600">.</span></span
+                ><span>Özbeyler Auto</span></span
               >
             </a>
           </div>
@@ -18,11 +18,6 @@
             <div
               class="h-auto w-full flex-col overflow-hidden rounded-lg bg-white md:relative md:flex md:flex-row md:overflow-visible md:rounded-none md:bg-transparent"
             >
-              <a
-                href="#_"
-                class="inline-flex h-16 w-auto items-center px-6 text-xl font-black leading-none text-gray-900 md:hidden"
-                >tails<span class="text-indigo-600">.</span></a
-              >
               <div
                 class="flex w-full flex-col items-start justify-center space-x-6 text-center md:mt-0 md:w-2/3 md:flex-row md:items-center lg:space-x-8"
               >
