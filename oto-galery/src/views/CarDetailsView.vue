@@ -5,12 +5,29 @@ const carData = Cardata;
 <template>
   <section>
     <div class="grid w-full grid-cols-12 place-content-center gap-4 px-4 md:pl-8 md:pr-0">
-      <div class="col-span-12 flex h-96 flex-wrap gap-2 bg-black/10 md:col-span-8">
+      <div class="col-span-12 flex flex-wrap gap-2 bg-black/10 md:col-span-8">
         <div class="w-1/2">image carousel</div>
+
+        <!-- car details -->
         <div class="w-5/12">
           <ul>
             <li v-for="car in carData.cars" :key="car.id">{{ car }}</li>
           </ul>
+        </div>
+        <!-- car about -->
+
+        <div class="w-full border-t border-black/80 px-4 py-4">
+          <h3 class="py-4 text-center text-xl font-bold">Açılama</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus repellat,
+            molestiae pariatur repudiandae nesciunt odit dolor eos corporis quod veritatis.
+            Reprehenderit inventore praesentium fugiat eveniet minus consequuntur officiis quo in!
+          </p>
+          <br />
+          <p>
+            Daha fazla bilgi için: <br />
+            iletişim bölümü
+          </p>
         </div>
       </div>
 
