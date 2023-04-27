@@ -1,0 +1,26 @@
+{
+  "cars": [
+    {
+        "id": 1,
+        "İlan No": 1095470002,
+        "İlan Tarihi": "27 Nisan 2023",
+        "Yıl": 2018,
+        "Yakıt": "Dizel",
+        "Vites": "Otomatik",
+        "Araç Durumu": "İkinci El",
+        "KM": 120000,
+        "Kasa Tipi": "Sedan",
+        "Motor Gücü": "130 hp",
+        "Motor Hacmi": "1598 cc",
+        "Çekiş": "Önden Çekiş",
+        "Renk": "Füme",
+        "Garanti": false,
+        "Ağır Hasar Kayıtlı": false,
+        "Plaka / Uyruk": "Türkiye (TR) Plakalı",
+        "Kimden": "Sahibinden",
+        "Görüntülü Arama İle Görülebilir": false,
+        "Fiyat": 1135000
+      }
+ ]
+
+}
