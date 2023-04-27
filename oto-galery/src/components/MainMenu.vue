@@ -7,9 +7,7 @@
         >
           <div class="flex h-full w-1/4 items-center justify-start pr-4">
             <a href="#_" class="inline-block py-4 md:py-0">
-              <span class="p-1 text-xl font-black leading-none text-gray-900"
-                ><span>Özbeyler Auto</span></span
-              >
+              <img src="../assets/Arka Plan.png" class="max-w-[7rem]" alt="zbeyler auto logo" />
             </a>
           </div>
           <div

@@ -51,7 +51,7 @@ const carData = Cardata;
           ><a
             href="https://yandex.com.tr/harita/101474/konya/?ll=32.492129%2C37.874904&utm_medium=mapframe&utm_source=maps&z=12"
             style="color: #eee; font-size: 12px; position: absolute; top: 14px"
-            >Yandex Maps: Ulaşım, navigasyon, yer arama</a
+            >Yandex Maps: Ulaşım, navigasyon, yer arama</a
           >
           <iframe
             src="https://yandex.com.tr/map-widget/v1/?ll=32.492129%2C37.874904&z=12"
