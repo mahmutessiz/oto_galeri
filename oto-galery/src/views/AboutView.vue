@@ -7,7 +7,7 @@
           style="background-image: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.7))"
         ></div>
         <img
-          src="../assets/gabriel-gurrola-u6BPMXgURuI-unsplash.jpg"
+          src="../assets/hero-img.png"
           class="absolute left-0 top-0 z-0 h-full w-full object-cover"
         />
         <div class="absolute bottom-0 left-0 z-20 p-4 sm:bottom-4">
