@@ -1,3 +1,6 @@
+<script setup>
+import { RouterLink } from 'vue-router';
+</script>
 <template>
   <section class="w-full bg-white px-6 pb-4 antialiased">
     <div class="mx-auto max-w-7xl">
@@ -6,9 +9,9 @@
           class="container relative mx-auto flex h-24 flex-wrap items-center justify-between overflow-hidden border-b border-gray-200 font-medium sm:px-4 md:overflow-visible md:px-2 lg:justify-center"
         >
           <div class="flex h-full w-1/4 items-center justify-start pr-4">
-            <a href="#_" class="inline-block py-4 md:py-0">
+            <RouterLink to="/" class="inline-block py-4 md:py-0">
               <img src="../assets/Arka_Plan.png" class="max-w-[7rem]" alt="zbeyler auto logo" />
-            </a>
+            </RouterLink>
           </div>
           <div
             class="left-0 top-0 hidden h-full w-full items-start bg-gray-900 bg-opacity-50 p-4 text-sm md:relative md:flex md:w-3/4 md:items-center md:bg-transparent md:p-0 lg:text-base"
@@ -19,25 +22,25 @@
               <div
                 class="flex w-full flex-col items-start justify-center space-x-6 text-center md:mt-0 md:w-2/3 md:flex-row md:items-center lg:space-x-8"
               >
-                <a
-                  href="#_"
+                <RouterLink
+                  to="/"
                   class="mx-0 ml-6 inline-block w-full py-2 text-left font-medium text-indigo-600 md:mx-2 md:ml-0 md:w-auto md:px-0 md:text-center lg:mx-3"
-                  >Anasayfa</a
+                  >Anasayfa</RouterLink
                 >
                 <a
-                  href="#_"
+                  href="#urunler"
                   class="mx-0 inline-block w-full py-2 text-left font-medium text-gray-700 hover:text-indigo-600 md:mx-2 md:w-auto md:px-0 md:text-center lg:mx-3"
                   >Ürünler</a
                 >
-                <a
-                  href="#_"
+                <RouterLink
+                  to="/about"
                   class="mx-0 inline-block w-full py-2 text-left font-medium text-gray-700 hover:text-indigo-600 md:mx-2 md:w-auto md:px-0 md:text-center lg:mx-3"
-                  >Hakkımızda</a
+                  >Hakkımızda</RouterLink
                 >
-                <a
-                  href="#_"
+                <RouterLink
+                  to="/contact"
                   class="mx-0 inline-block w-full py-2 text-left font-medium text-gray-700 hover:text-indigo-600 md:mx-2 md:w-auto md:px-0 md:text-center lg:mx-3"
-                  >İletişim</a
+                  >İletişim</RouterLink
                 >
               </div>
               <div

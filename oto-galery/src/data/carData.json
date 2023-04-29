@@ -1,6 +1,27 @@
 {
   "cars": [
     {
+        "id": 0,
+        "isim": "RENAULT Talisman 1.6 dCi Icon",
+        "İlan Tarihi": "27 Nisan 2023",
+        "Yıl": 2018,
+        "Yakıt": "Dizel",
+        "Vites": "Otomatik",
+        "Araç Durumu": "İkinci El",
+        "KM": 120000,
+        "Kasa Tipi": "Sedan",
+        "Motor Gücü": "130 hp",
+        "Motor Hacmi": "1598 cc",
+        "Çekiş": "Önden Çekiş",
+        "Renk": "Füme",
+        "Garanti": false,
+        "Ağır Hasar Kayıtlı": false,
+        "Plaka / Uyruk": "Türkiye (TR) Plakalı",
+        "Kimden": "Sahibinden",
+        "Fiyat": 1135000,
+        "kisa-aciklama": "Fiat Egea aracımız hatasız, boyasız ve değişensizdir. Genel olarak iyi durumdadır ve koltuklar yenilenmiştir."
+      },
+      {
         "id": 1,
         "isim": "RENAULT Talisman 1.6 dCi Icon",
         "İlan Tarihi": "27 Nisan 2023",
@@ -18,8 +39,50 @@
         "Ağır Hasar Kayıtlı": false,
         "Plaka / Uyruk": "Türkiye (TR) Plakalı",
         "Kimden": "Sahibinden",
-        "Görüntülü Arama İle Görülebilir": false,
-        "Fiyat": 1135000
+        "Fiyat": 1135000,
+        "kisa-aciklama": "Fiat Egea aracımız hatasız, boyasız ve değişensizdir. Genel olarak iyi durumdadır ve koltuklar yenilenmiştir."
+      },
+      {
+        "id": 2,
+        "isim": "RENAULT Talisman 1.6 dCi Icon",
+        "İlan Tarihi": "27 Nisan 2023",
+        "Yıl": 2018,
+        "Yakıt": "Dizel",
+        "Vites": "Otomatik",
+        "Araç Durumu": "İkinci El",
+        "KM": 120000,
+        "Kasa Tipi": "Sedan",
+        "Motor Gücü": "130 hp",
+        "Motor Hacmi": "1598 cc",
+        "Çekiş": "Önden Çekiş",
+        "Renk": "Füme",
+        "Garanti": false,
+        "Ağır Hasar Kayıtlı": false,
+        "Plaka / Uyruk": "Türkiye (TR) Plakalı",
+        "Kimden": "Sahibinden",
+        "Fiyat": 1135000,
+        "kisa-aciklama": "Fiat Egea aracımız hatasız, boyasız ve değişensizdir. Genel olarak iyi durumdadır ve koltuklar yenilenmiştir."
+      },
+      {
+        "id": 3,
+        "isim": "RENAULT Talisman 1.6 dCi Icon",
+        "İlan Tarihi": "27 Nisan 2023",
+        "Yıl": 2018,
+        "Yakıt": "Dizel",
+        "Vites": "Otomatik",
+        "Araç Durumu": "İkinci El",
+        "KM": 120000,
+        "Kasa Tipi": "Sedan",
+        "Motor Gücü": "130 hp",
+        "Motor Hacmi": "1598 cc",
+        "Çekiş": "Önden Çekiş",
+        "Renk": "Füme",
+        "Garanti": false,
+        "Ağır Hasar Kayıtlı": false,
+        "Plaka / Uyruk": "Türkiye (TR) Plakalı",
+        "Kimden": "Sahibinden",
+        "Fiyat": 1135000,
+        "kisa-aciklama": "Fiat Egea aracımız hatasız, boyasız ve değişensizdir. Genel olarak iyi durumdadır ve koltuklar yenilenmiştir."
       }
  ]
 
