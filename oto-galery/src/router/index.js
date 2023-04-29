@@ -27,7 +27,10 @@ const router = createRouter({
       name: 'car',
       component: () => import('../views/CarDetailsView.vue')
     }
-  ]
+  ],
+  scrollBehavior() {
+    return { top: 0, behavior: 'smooth' };
+  }
 });
 
 export default router;
