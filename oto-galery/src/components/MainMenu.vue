@@ -1,9 +1,27 @@
 <script setup>
 import { RouterLink } from 'vue-router';
 import DrawerMenu from './DrawerMenu.vue';
+
+let isDrawerOpen = false;
+const drawerMove = () => {
+  const drawer = document.querySelector('#drawer-open-close');
+  if (isDrawerOpen == false) {
+    drawer.classList.remove('hidden');
+    drawer.classList.remove('slide-to-right');
+    drawer.classList.add('slide-to-left');
+    isDrawerOpen = true;
+  } else {
+    drawer.classList.add('hidden');
+
+    /* drawer.classList.remove('slide-to-left');
+    drawer.classList.add('slide-to-rigt'); */
+    isDrawerOpen = false;
+  }
+};
 </script>
+
 <template>
-  <section class="w-full bg-white px-6 pb-4 antialiased">
+  <section class="sticky top-0 z-20 w-full bg-white px-6 pb-4 antialiased">
     <div class="mx-auto max-w-7xl">
       <nav class="relative z-50 h-24 select-none" x-data="{ showMenu: false }">
         <div
@@ -55,7 +73,7 @@ import DrawerMenu from './DrawerMenu.vue';
               </div>
             </div>
           </div>
-          <div class="flex md:hidden">
+          <div class="flex cursor-pointer md:hidden" @click="drawerMove">
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
               <path fill="currentColor" d="M3 18v-2h18v2H3Zm0-5v-2h18v2H3Zm0-5V6h18v2H3Z" />
             </svg>
@@ -65,12 +83,12 @@ import DrawerMenu from './DrawerMenu.vue';
     </div>
   </section>
 
-  <DrawerMenu id="drawer-open-close" class="slide-to-left md:hidden" />
+  <DrawerMenu id="drawer-open-close" class="hidden md:hidden" />
 </template>
 
 <style scoped>
 .slide-to-left {
-  animation: slide-move-left 3000ms linear;
+  animation: slide-move-left 300ms linear;
 }
 
 @keyframes slide-move-left {
@@ -79,6 +97,19 @@ import DrawerMenu from './DrawerMenu.vue';
   }
   to {
     left: 0%;
+  }
+}
+
+.slide-to-right {
+  animation: slide-move-right 300ms linear;
+}
+
+@keyframes slide-move-right {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 120%;
   }
 }
 </style>
