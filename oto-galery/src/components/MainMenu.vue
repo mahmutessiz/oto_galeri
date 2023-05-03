@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink } from 'vue-router';
+import DrawerMenu from './DrawerMenu.vue';
 </script>
 <template>
   <section class="w-full bg-white px-6 pb-4 antialiased">
@@ -63,4 +64,21 @@ import { RouterLink } from 'vue-router';
       </nav>
     </div>
   </section>
+
+  <DrawerMenu id="drawer-open-close" class="slide-to-left md:hidden" />
 </template>
+
+<style scoped>
+.slide-to-left {
+  animation: slide-move-left 3000ms linear;
+}
+
+@keyframes slide-move-left {
+  from {
+    left: 120%;
+  }
+  to {
+    left: 0%;
+  }
+}
+</style>
