@@ -12,9 +12,6 @@ const drawerMove = () => {
     isDrawerOpen = true;
   } else {
     drawer.classList.add('hidden');
-
-    /* drawer.classList.remove('slide-to-left');
-    drawer.classList.add('slide-to-rigt'); */
     isDrawerOpen = false;
   }
 };
@@ -23,7 +20,7 @@ const drawerMove = () => {
 <template>
   <section class="sticky top-0 z-20 w-full bg-white px-6 pb-4 antialiased">
     <div class="mx-auto max-w-7xl">
-      <nav class="relative z-50 h-24 select-none" x-data="{ showMenu: false }">
+      <nav class="relative z-50 h-24 select-none">
         <div
           class="container relative mx-auto flex h-24 flex-wrap items-center justify-between overflow-hidden border-b border-gray-200 font-medium sm:px-4 md:overflow-visible md:px-2 lg:justify-center"
         >
@@ -97,19 +94,6 @@ const drawerMove = () => {
   }
   to {
     left: 0%;
-  }
-}
-
-.slide-to-right {
-  animation: slide-move-right 300ms linear;
-}
-
-@keyframes slide-move-right {
-  from {
-    left: 0%;
-  }
-  to {
-    left: 120%;
   }
 }
 </style>
