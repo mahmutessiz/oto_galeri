@@ -2,18 +2,19 @@
 import { RouterLink } from 'vue-router';
 import DrawerMenu from './DrawerMenu.vue';
 
-let isDrawerOpen = false;
 
+/**
+ * !check if drawer element hidden or not, then take action accordingly
+ */
 const drawerMove = () => {
   const drawer = document.querySelector('#drawer-open-close');
-  if (isDrawerOpen == false) {
+  let isHidden = drawer.classList.contains('hidden');
+  if (isHidden == true) {
     drawer.classList.remove('hidden');
     drawer.classList.remove('slide-to-right');
     drawer.classList.add('slide-to-left');
-    isDrawerOpen = true;
   } else {
     drawer.classList.add('hidden');
-    isDrawerOpen = false;
   }
 };
 </script>
