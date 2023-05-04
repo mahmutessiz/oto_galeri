@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router';
 </script>
 
 <template>
-  <div class="fixed z-20 -mt-4 h-screen w-full bg-white pt-4">
+  <div class="fixed z-20 -mt-4 hidden h-screen w-full bg-white pt-4">
     <ul class="flex w-full flex-wrap">
       <li
         class="w-full cursor-pointer bg-gray-100 py-3 text-center text-xl transition-all duration-200 hover:bg-rose-500"

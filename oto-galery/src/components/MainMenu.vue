@@ -3,6 +3,7 @@ import { RouterLink } from 'vue-router';
 import DrawerMenu from './DrawerMenu.vue';
 
 let isDrawerOpen = false;
+
 const drawerMove = () => {
   const drawer = document.querySelector('#drawer-open-close');
   if (isDrawerOpen == false) {
