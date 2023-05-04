@@ -1,21 +1,9 @@
 <template>
-  <section class="mt-12 flex w-full flex-col items-center justify-center py-4">
-    <h2 class="pb-4 text-2xl font-bold">Harita ve Adres Bilgisi</h2>
+  <section class="mt-12 flex w-full flex-wrap items-center justify-center py-4">
+    <h2 class="pb-8 text-2xl font-bold">Harita ve Adres Bilgisi</h2>
     <div class="flex w-full flex-wrap justify-center gap-2">
-      <!-- adres falan -->
-
-      <ul class="w-1/3 px-4 py-4">
-        <li class="pb-2"><span class="font-bold">Telefon:</span> 0545 323 73 68</li>
-        <li class="pb-2"><span class="font-bold">WhatsApp:</span> 0545 323 73 68</li>
-        <li class="pb-2"><span class="font-bold">E-posta:</span> ozbeylerauto@gmail.com</li>
-        <li class="pb-2">
-          <span class="font-bold">Adres:</span> bilmemne mh. sanayi sitesi no:15 özbeyler auto
-          çumra/konya
-        </li>
-      </ul>
-
       <!-- harita bilgisi -->
-      <div class="relative w-1/3 overflow-hidden">
+      <div class="relative w-1/3 min-w-[20rem] max-w-[30rem] overflow-hidden">
         <a
           href="https://yandex.com.tr/harita/101474/konya/?utm_medium=mapframe&utm_source=maps"
           style="color: #eee; font-size: 12px; position: absolute; top: 0px"
@@ -33,8 +21,17 @@
           style="position: relative"
         ></iframe>
       </div>
-    </div>
 
-    <!-- maps end -->
+      <!-- Contact info -->
+      <ul class="w-1/3 min-w-[20rem] px-4 py-4">
+        <li class="pb-2"><span class="font-bold">Telefon:</span> 0545 323 73 68</li>
+        <li class="pb-2"><span class="font-bold">WhatsApp:</span> 0545 323 73 68</li>
+        <li class="pb-2"><span class="font-bold">E-posta:</span> ozbeylerauto@gmail.com</li>
+        <li class="pb-2">
+          <span class="font-bold">Adres:</span> bilmemne mh. sanayi sitesi no:15 özbeyler auto
+          çumra/konya
+        </li>
+      </ul>
+    </div>
   </section>
 </template>

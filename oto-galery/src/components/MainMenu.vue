@@ -2,7 +2,6 @@
 import { RouterLink } from 'vue-router';
 import DrawerMenu from './DrawerMenu.vue';
 
-
 /**
  * !check if drawer element hidden or not, then take action accordingly
  */
