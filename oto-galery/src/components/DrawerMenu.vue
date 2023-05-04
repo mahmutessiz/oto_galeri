@@ -43,8 +43,8 @@ function deneme() {
         <RouterLink to="/contact"><p class="w-full">İletişim</p></RouterLink>
       </li>
     </ul>
-    <div class="mt-12 flex w-full items-center justify-center">
+    <!-- <div class="mt-12 flex w-full items-center justify-center">
       <img src="../assets/arka_plan.png" class="w-full opacity-40" alt="ozbeyler auto logo" />
-    </div>
+    </div> -->
   </div>
 </template>
