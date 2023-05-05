@@ -45,7 +45,7 @@ const drawerMove = () => {
                   >Anasayfa</RouterLink
                 >
                 <a
-                  href="#urunler"
+                  href="/"
                   class="mx-0 inline-block w-full py-2 text-left font-medium text-gray-700 hover:text-indigo-600 md:mx-2 md:w-auto md:px-0 md:text-center lg:mx-3"
                   >Ürünler</a
                 >
@@ -63,10 +63,10 @@ const drawerMove = () => {
               <div
                 class="flex w-full flex-col items-start justify-end pt-4 md:w-1/3 md:flex-row md:items-center md:py-0"
               >
-                <a
-                  href="#_"
+                <RouterLink
+                  to="/contact"
                   class="inline-flex w-full items-center bg-indigo-600 px-6 py-3 text-sm font-medium leading-4 text-white hover:bg-indigo-500 focus:outline-none focus:ring-0 focus:ring-indigo-600 focus:ring-offset-2 md:w-auto md:rounded-full md:px-3 md:focus:ring-2 lg:px-5"
-                  >Bize ulaşın</a
+                  >Bize ulaşın</RouterLink
                 >
               </div>
             </div>
