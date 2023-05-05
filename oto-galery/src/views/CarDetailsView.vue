@@ -2,6 +2,19 @@
 import { useRoute } from 'vue-router';
 import Cardata from '../data/carData.json';
 
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from 'swiper/vue';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper';
+
+const modules = [Autoplay, Pagination, Navigation];
+
 const route = useRoute();
 const carId = route.params.id;
 
@@ -15,8 +28,17 @@ const carData = Cardata;
         <div class="flex w-full" v-for="car in carData.cars" :key="car.id">
           <div class="flex w-full flex-wrap" v-if="car.id == carId">
             <div class="w-full py-4">
-              image carousel <br />
-              <img src="../assets/hero-img.png" alt="" />
+              <!-- image carousel -->
+
+              <swiper :navigation="true" :modules="modules" :rewind="true" class="mySwiper">
+                <swiper-slide v-for="imageCar in car.resimler" :key="imageCar">
+                  <img
+                    :src="imageCar"
+                    class="aspect-video w-full object-cover object-center"
+                    alt="car image"
+                  />
+                </swiper-slide>
+              </swiper>
             </div>
             <ul class="flex w-full flex-wrap items-end">
               <li class="w-full bg-slate-200 py-4 pl-4 md:w-1/2 md:bg-slate-200">

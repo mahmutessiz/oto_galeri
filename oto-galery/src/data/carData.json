@@ -2,7 +2,7 @@
   "cars": [
     {
         "id": 0,
-        "isim": "RENAULT Talisman 1.6 dCi Icon",
+        "isim": "Volkswagen Beetle",
         "İlan Tarihi": "27 Nisan 2023",
         "Yıl": 2018,
         "Yakıt": "Dizel",
@@ -19,14 +19,16 @@
         "Plaka / Uyruk": "Türkiye (TR) Plakalı",
         "Kimden": "Sahibinden",
         "Fiyat": 1135000,
-        "kisa-aciklama": "Fiat Egea aracımız hatasız, boyasız ve değişensizdir. Genel olarak iyi durumdadır ve koltuklar yenilenmiştir.",
+        "kisa-aciklama": "Volkswagen Beetle aracımız hatasızdır ve boyası orijinaldir. Genel olarak mükemmel durumdadır ve koltuklar yeni gibi görünmektedir. Aracımızın performansı da oldukça iyidir.",
         "resimler": [
-          "https://images.unsplash.com/photo-1489824904134-891ab64532f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80"
+          "https://images.unsplash.com/photo-1489824904134-891ab64532f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80",
+          "https://th.bing.com/th/id/OIP.ibzsxDShLgm_s0gHxH1jjgHaE8?pid=ImgDet&rs=1",
+          "https://bringatrailer.com/wp-content/uploads/2017/11/DSC_9867.jpg"
         ]
       },
       {
         "id": 1,
-        "isim": "RENAULT Talisman 1.6 dCi Icon",
+        "isim": "Audi R8 Coupe",
         "İlan Tarihi": "27 Nisan 2023",
         "Yıl": 2018,
         "Yakıt": "Dizel",
@@ -43,14 +45,17 @@
         "Plaka / Uyruk": "Türkiye (TR) Plakalı",
         "Kimden": "Sahibinden",
         "Fiyat": 1135000,
-        "kisa-aciklama": "Fiat Egea aracımız hatasız, boyasız ve değişensizdir. Genel olarak iyi durumdadır ve koltuklar yenilenmiştir.",
+        "kisa-aciklama": "Audi R8 Coupe aracımız hatasızdır ve boyası orijinaldir. Genel olarak mükemmel durumdadır ve koltuklar yeni gibi görünmektedir.",
         "resimler": [
-          "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+          "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+         "https://elitevehiclehire.com/img/audi_r8/img1.jpg",
+          "https://i.pinimg.com/736x/31/74/92/317492d273cca039cced79f07234159d--audi-rs-auto.jpg",
+          "https://i.pinimg.com/736x/31/74/92/317492d273cca039cced79f07234159d--audi-rs-auto.jpg"
         ]
       },
       {
         "id": 2,
-        "isim": "RENAULT Talisman 1.6 dCi Icon",
+        "isim": "Chevrolet Camaro SS",
         "İlan Tarihi": "27 Nisan 2023",
         "Yıl": 2018,
         "Yakıt": "Dizel",
@@ -67,14 +72,17 @@
         "Plaka / Uyruk": "Türkiye (TR) Plakalı",
         "Kimden": "Sahibinden",
         "Fiyat": 1135000,
-        "kisa-aciklama": "Fiat Egea aracımız hatasız, boyasız ve değişensizdir. Genel olarak iyi durumdadır ve koltuklar yenilenmiştir.",
+        "kisa-aciklama": "Chevy Camaro SS aracımız hatasız, boyasız ve değişensizdir. Genel olarak iyi durumdadır ve koltuklar yenilenmiştir.",
         "resimler": [
-          "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1283&q=80"
+          "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1283&q=80",
+          "https://i.ytimg.com/vi/j1g14y7l4u4/hqdefault.jpg",
+          "https://cdn.shopify.com/s/files/1/1455/0738/products/IMG_1271_1024x1024.jpg?v=1605807853",
+          "https://i.pinimg.com/474x/06/80/e4/0680e4fc165df6beec81e657101d7a7a.jpg"
         ]
       },
       {
         "id": 3,
-        "isim": "RENAULT Talisman 1.6 dCi Icon",
+        "isim": "MERCEDES-BENZ CLS",
         "İlan Tarihi": "27 Nisan 2023",
         "Yıl": 2018,
         "Yakıt": "Dizel",
@@ -91,9 +99,12 @@
         "Plaka / Uyruk": "Türkiye (TR) Plakalı",
         "Kimden": "Sahibinden",
         "Fiyat": 1135000,
-        "kisa-aciklama": "Fiat Egea aracımız hatasız, boyasız ve değişensizdir. Genel olarak iyi durumdadır ve koltuklar yenilenmiştir.",
+        "kisa-aciklama": "MERCEDES-BENZ CLS aracımız hatasız, boyasız ve değişensizdir. Genel olarak iyi durumdadır ve koltuklar yenilenmiştir.",
         "resimler": [
-          "https://images.unsplash.com/photo-1485291571150-772bcfc10da5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80"
+          "https://images.unsplash.com/photo-1485291571150-772bcfc10da5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80",
+          "https://jr-wheels.com/zdjecia/2020/12/18/712/04/Q644fot1_05.jpg",
+          "https://th.bing.com/th/id/OIP.6VXptpqvwiBhrfcnx3K03wHaE9?pid=ImgDet&rs=1",
+          "https://th.bing.com/th/id/OIP.hRh_edCJQNz4J4DYsXtGEgHaE9?pid=ImgDet&rs=1"
         ]
       }
  ]

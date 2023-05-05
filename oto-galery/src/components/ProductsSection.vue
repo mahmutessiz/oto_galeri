@@ -2,6 +2,12 @@
 import carData from '../data/carData.json';
 import { useRouter } from 'vue-router';
 
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide } from 'swiper/vue';
+
+// Import Swiper styles
+import 'swiper/css';
+
 const router = useRouter();
 const carDataHome = carData;
 </script>
@@ -16,7 +22,11 @@ const carDataHome = carData;
       v-for="data in carDataHome.cars"
       :key="data.id"
     >
-      <img class="h-56 w-full object-cover object-center" :src="data.resimler[0]" alt="car photo" />
+      <swiper :rewind="true" class="mySwiper">
+        <swiper-slide v-for="imageCar in data.resimler" :key="imageCar">
+          <img :src="imageCar" class="h-56 w-full object-cover object-center" alt="car image" />
+        </swiper-slide>
+      </swiper>
       <div class="px-6 py-4">
         <h2 class="text-xl font-bold text-gray-800">{{ data.isim }}</h2>
         <p class="py-2 text-lg text-gray-700">
