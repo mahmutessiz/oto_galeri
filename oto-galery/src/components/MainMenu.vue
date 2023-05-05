@@ -19,7 +19,7 @@ const drawerMove = () => {
 </script>
 
 <template>
-  <section class="sticky top-0 z-20 w-full bg-white px-6 pb-4 antialiased">
+  <section class="sticky top-0 z-20 w-full bg-white px-6 antialiased">
     <div class="mx-auto max-w-7xl">
       <nav class="relative z-50 h-24 select-none">
         <div
