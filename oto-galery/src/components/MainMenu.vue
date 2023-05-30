@@ -27,7 +27,7 @@ const drawerMove = () => {
         >
           <div class="flex h-full w-1/4 items-center justify-start pr-4">
             <RouterLink to="/" class="inline-block py-4 md:py-0">
-              <img src="../assets/Arka_Plan.png" class="max-w-[7rem]" alt="ozbeyler auto logo" />
+              <img src="../assets/logo.svg" class="max-w-[7rem]" alt="ozbeyler auto logo" />
             </RouterLink>
           </div>
           <div
