@@ -51,7 +51,7 @@
             </svg>
           </li>
         </ul>
-        <div class="mx-auto flex text-center">Copyright Özbeyler Otomotiv © 2023</div>
+        <div class="mx-auto flex text-center">Copyright SafedriveAllRight? Otomotiv © 2023</div>
       </div>
     </footer>
   </div>

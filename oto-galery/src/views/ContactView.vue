@@ -1,11 +1,11 @@
 <template>
-  <div class="bg-black py-4 text-white">
+  <div class="py-4 text-white">
     <div class="container mx-auto my-12 flex flex-col md:my-36 md:flex-row">
       <div class="flex w-full flex-col p-8 lg:w-2/5">
         <p class="my-4 text-3xl leading-relaxed text-yellow-500 md:text-5xl md:leading-snug">
           Contact our team
         </p>
-        <p class="my-2 font-sans text-sm md:my-4 md:text-lg">
+        <p class="my-2 font-sans text-sm text-black md:my-4 md:text-lg">
           <svg
             class="mr-2 inline-block fill-current"
             xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +18,7 @@
             /></svg
           >Guru Nank Dev Engineering College, Ludhiana
         </p>
-        <p class="my-2 font-sans text-sm md:my-4 md:text-lg">
+        <p class="my-2 font-sans text-sm text-black md:my-4 md:text-lg">
           <svg
             class="mr-2 inline-block fill-current"
             xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +32,7 @@
           </svg>
           techfestgndec@gmail.com
         </p>
-        <p class="my-2 font-sans text-sm md:my-4 md:text-lg">
+        <p class="my-2 font-sans text-sm text-black md:my-4 md:text-lg">
           <svg
             class="mr-2 inline-block fill-current"
             xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@
         </p>
         <br />
         <br />
-        <p class="my-2 font-sans text-sm md:my-4 md:text-lg">
+        <p class="my-2 font-sans text-sm text-black md:my-4 md:text-lg">
           Press the chat icon at the right bottom corner to have a live chat with our team.
         </p>
       </div>
