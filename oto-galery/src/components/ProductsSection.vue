@@ -18,7 +18,7 @@ const carDataHome = carData;
       <h2 class="text-3xl font-bold">Ürünler</h2>
     </div>
     <div
-      class="my-4 w-80 max-w-sm overflow-hidden rounded-lg bg-white shadow-lg sm:w-auto"
+      class="my-4 min-h-[32rem] w-80 max-w-sm overflow-hidden rounded-lg bg-white shadow-lg sm:w-auto"
       v-for="data in carDataHome.cars"
       :key="data.id"
     >
